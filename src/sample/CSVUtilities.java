@@ -1,6 +1,9 @@
 package sample;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,9 +12,13 @@ public class CSVUtilities
     ArrayList<String> CSVData;
     int numColumns;
 
-    CSVUtilities(File csv)
+    public CSVUtilities(File csv)
     {
-
+        for(int i = 0; i<csv.length(); i++)
+        {
+            CSVData.add(csv.);
+        }
+        numColumns;
     }
 
     public List<String> getColumnHeaders()
